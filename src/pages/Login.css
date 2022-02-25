@@ -1,0 +1,78 @@
+.loginImgContainer {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../images/money.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  align-items: center;
+  background-color: rgb(26, 25, 25);
+  opacity: 0.9;
+  padding: 25px;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.loginContainer input {
+  background: none;
+  text-align: center;
+  color: rgb(3, 151, 80);
+}
+.loginContainer input::placeholder {
+  color: rgb(3, 151, 80);
+}
+.loginContainer p {
+  font-size: x-large;
+  color: rgb(3, 151, 80);
+}
+.button-59 {
+  background-color: rgb(3, 151, 80);;
+  font-size: medium;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 7%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  outline: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+}
+
+.button-59:active {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}

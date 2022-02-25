@@ -1,0 +1,198 @@
+* {
+  background-color: rgb(26, 25, 25);
+}
+@media (min-width: 700px) {
+  .tableContainer {
+    background-color: rgb(26, 25, 25);
+    color: rgb(3, 151, 80);
+  }
+  .thead {
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+  }
+  table, td, th {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  table {
+    margin-top: 2%;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  .button-Delete {
+    background-color: rgb(151, 3, 3);;
+    font-size: medium;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-Delete:focus {
+    color: #171e29;
+  }
+  
+  .button-Delete:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-Delete:active {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-edit {
+    background-color: rgb(3, 116, 151);
+    font-size: medium;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-edit:focus {
+    color: #171e29;
+  }
+  
+  .button-edit:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-edit:active {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 700px) {
+  .tableContainer {
+    background-color: rgb(26, 25, 25);
+    color: rgb(3, 151, 80);
+  }
+  .thead {
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+  }
+  table, td, th {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  table {
+    margin-top: 2%;
+    border-collapse: collapse;
+    width: 200vw
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  .button-Delete {
+    background-color: rgb(151, 3, 3);;
+    font-size: medium;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-Delete:focus {
+    color: #171e29;
+  }
+  
+  .button-Delete:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-Delete:active {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-edit {
+    background-color: rgb(3, 116, 151);
+    font-size: medium;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-edit:focus {
+    color: #171e29;
+  }
+  
+  .button-edit:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+  .button-edit:active {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+}

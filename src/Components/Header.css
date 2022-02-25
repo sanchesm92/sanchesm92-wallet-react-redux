@@ -1,0 +1,44 @@
+@media (min-width: 700px) {
+.headerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(26, 25, 25);;
+}
+.headerTxt {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  color: rgb(3, 151, 80);
+}
+.headerSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(3, 151, 80);
+}
+}
+
+@media (max-width: 700px) {
+  .headerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 200vw;
+    background-color: rgb(26, 25, 25);;
+  }
+  .headerTxt {
+    display: flex;
+    justify-content: space-between;
+    width: 150vw;
+    color: rgb(3, 151, 80);
+  }
+  .headerSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(3, 151, 80);
+  }
+  }
