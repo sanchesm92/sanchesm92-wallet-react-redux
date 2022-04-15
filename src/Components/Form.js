@@ -111,9 +111,10 @@ class Form extends Component {
           <span>Value</span>
           <input
             onChange={ this.handleChange }
-            type="text"
+            type="number"
             id="valor"
-            value={ value || 0 }
+            value={ value }
+            min={0}
             name="value"
             data-testid="value-input"
           />

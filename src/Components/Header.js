@@ -25,7 +25,7 @@ class Header extends Component {
         </div>
         <section className='headerSection'>
           <p data-testid="total-field">{totalSum}</p>
-          <span data-testid="header-currency-field">BRL</span>
+          <span data-testid="header-currency-field">BRL 🇧🇷</span>
         </section>
       </header>
     );
